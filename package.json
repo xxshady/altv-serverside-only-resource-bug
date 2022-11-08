@@ -5,6 +5,13 @@
   "license": "MIT",
   "dependencies": {
     "altv-pkg": "^2.0.7",
+    "concurrently": "^7.5.0",
     "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "pack": "altv-server.exe --justpack",
+    "server": "altv-server.exe",
+    "cdn": " npx http-server cdn_upload --port 80",
+    "start": "yarn && npx altv-pkg dev && concurrently \"npm:pack\" \"npm:server\" \"npm:cdn\""
   }
 }
