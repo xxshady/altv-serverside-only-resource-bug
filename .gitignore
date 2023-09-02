@@ -6,3 +6,4 @@
 /modules
 /node_modules
 /server.log
+.server-crashes-cache

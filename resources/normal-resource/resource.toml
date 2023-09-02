@@ -1,0 +1,4 @@
+client-main = 'client.js'
+deps = [ 'serveronly-resource' ]
+main = 'server.js'
+type = 'js'
