@@ -1,3 +1,3 @@
 # altv-serverside-only-resource-bug
 
-Run `yarn start`, try to connect to `http://127.0.0.1`
+Run `yarn start`, connect to `127.0.0.1:99`
