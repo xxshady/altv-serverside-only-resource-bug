@@ -1,0 +1,3 @@
+type = 'js'
+main = 'main.js'
+client-main = 'client.js'

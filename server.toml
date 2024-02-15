@@ -3,6 +3,6 @@ host = '127.0.0.1'
 port = 7790
 logStreams = ['file', 'stdconsole']
 modules = ['js-module']
-resources = ['normal-resource']
+resources = ['test']
 useCdn = true
 debug = true
