@@ -11,7 +11,7 @@
   "scripts": {
     "pack": "altv-server.exe --justpack",
     "server": "altv-server.exe",
-    "cdn": " npx http-server cdn_upload --port 80",
+    "cdn": " npx http-server cdn_upload --port 99",
     "start": "yarn && altv-pkg dev && concurrently \"npm:pack\" \"npm:server\" \"npm:cdn\""
   }
 }
